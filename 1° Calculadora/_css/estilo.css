@@ -1,0 +1,24 @@
+section{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%);
+    background: wheat;
+    border: 1px ridge black;
+    border-radius: 2%;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.329);
+}
+button{
+    width: 50px;
+    height: 50px;
+}
+input#visor{
+    width: 210px;
+    height: 70px;
+    font: bold 30px Arial;
+}
+header{
+    text-align: center;
+    line-height: 80px;
+    font: bold 30px Times;
+}

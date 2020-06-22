@@ -13,32 +13,32 @@
 
 <section id="secao">
     <div id="tela">
-        <input type="text" name="visor" id="visor" >
+        <input type="text" name="visor" id="visor" value="" >
     </div>
     <table>
         <tr>
-            <td><button type="button" value="" id="1">1</button></td>
-            <td><button type="button" value="" id="2">2</button></td>
-            <td><button type="button" value="3" id="3">3</button></td>
-            <td><button type="button" value="soma" id="soma">+</button></td>
+            <td><button type="button" value="1" id="1" onclick="numero('1')">1</button></td>
+            <td><button type="button" value="2" id="2" onclick="numero('2')">2</button></td>
+            <td><button type="button" value="3" id="3" onclick="numero('3')">3</button></td>
+            <td><button type="button" value="soma" id="soma" onclick="operacao('+')">+</button></td>
         </tr>
         <tr>
-            <td><button type="button" value="4" id="4">4</button></td>
-            <td><button type="button" value="5" id="5">5</button></td>
-            <td><button type="button" value="6" id="6">6</button></td>
-            <td><button type="button" value="subtracao" id="subtracao">-</button></td>
+            <td><button type="button" value="4" id="4" onclick="numero('4')">4</button></td>
+            <td><button type="button" value="5" id="5" onclick="numero('5')">5</button></td>
+            <td><button type="button" value="6" id="6" onclick="numero('6')">6</button></td>
+            <td><button type="button" value="subtracao" id="subtracao" onclick="operacao('-')">-</button></td>
         </tr>
         <tr>
-            <td><button type="button" value="7" id="7">7</button></td>
-            <td><button type="button" value="8" id="8">8</button></td>
-            <td><button type="button" value="9" id="9">9</button></td>
-            <td><button type="button" value="multiplicacao" id="multiplicacao">*</button></td>
+            <td><button type="button" value="7" id="7" onclick="numero('7')">7</button></td>
+            <td><button type="button" value="8" id="8" onclick="numero('8')">8</button></td>
+            <td><button type="button" value="9" id="9" onclick="numero('9')">9</button></td>
+            <td><button type="button" value="multiplicacao" id="multiplicacao" onclick="operacao('*')">*</button></td>
         </tr>
         <tr>
-            <td><button type="button" value="0" id="0">0</button></td>
-            <td><button type="button" value="C" id="C">C</button></td>
-            <td><button type="button" value="igual" id="igual">=</button></td>
-            <td><button type="button" value="divisao" id="divisao">/</button></td>
+            <td><button type="button" value="0" id="0" onclick="numero('0')">0</button></td>
+            <td><button type="button" value="C" id="C" onclick="limpar()">C</button></td>
+            <td><button type="button" value="igual" id="igual" onclick="operacao('=')">=</button></td>
+            <td><button type="button" value="divisao" id="divisao" onclick="operacao('/')">/</button></td>
         </tr>
 
     </table>
